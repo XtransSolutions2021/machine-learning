@@ -47,7 +47,7 @@ def test_model_return_object():
     # Check the return object type
     assert isinstance(scores, dict)
     # Check the length of the returned object
-    assert len(scores) == 2
+    assert len(scores) == 1
     # Check the correctness of the names of the returned dict keys
     assert 'Train-score' in scores and 'Test-score' in scores
 

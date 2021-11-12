@@ -3,5 +3,6 @@ python:
   - "3.7"
 install:
   - pip install -U pytest
+  - pip install -U joblib
 script:
   - pytest test_linear_model.py

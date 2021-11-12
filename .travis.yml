@@ -4,5 +4,6 @@ python:
 install:
   - pip install -U pytest
   - pip install -U joblib
+  - pip install -U sklearn
 script:
   - pytest test_linear_model.py

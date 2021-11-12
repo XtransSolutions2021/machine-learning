@@ -6,4 +6,4 @@ install:
   - pip install -U joblib
   - pip install -U sklearn
 script:
-  - pytest test_linear_model.py
+  - pytest test/test_dummy_model.py

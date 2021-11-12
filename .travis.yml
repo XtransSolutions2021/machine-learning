@@ -1,7 +1,7 @@
 language: python
 python:
-  -"3.7"
+  - "3.7"
 install:
-  pip install -U pytest
+  - pip install -U pytest
 script:
-  -pytest test_linear_model.py
+  - pytest test_linear_model.py
